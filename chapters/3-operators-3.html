@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Operators 3</title>
-    <link rel="stylesheet"
-          href="https://fonts.googleapis.com/css?family=Open+Sans">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
     <link rel="stylesheet" href="../style.css">
-    <link rel="stylesheet"
-          href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/styles/default.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/styles/default.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/highlight.min.js"></script>
 </head>
+
 <body onload="runCatching(task)">
-<h1>Operators</h1>
-Boolean negation with "!" can also have some surprising results
-<pre>
+    <h1>Operators</h1>
+    Boolean negation with "!" can also have some surprising results
+    <pre>
 <code class="language-javascript">// that makes sense
 console.log(!true) // -> false
 console.log(!false) // -> true
@@ -32,27 +32,29 @@ console.log(!"") // -> true
 </code>
 </pre>
 
-<h3>Your Task:</h3>
-<span>edit the script block of this file, change the comparison operations to make sure we eat pizza today</span><br>
-<h4>eat pizza today?</h4>
-<h4><span id="eat"></span>!</h4>
+    <h3>Your Task:</h3>
+    <span>edit the script block of this file, change the comparison operations to make sure we eat pizza
+        today</span><br>
+    <h4>eat pizza today?</h4>
+    <h4><span id="eat"></span>!</h4>
 
-<script type="application/javascript">
-    const task = () => {
-        const eatPizza = !!true && !![] && !!"" && !!" "
-        render(eatPizza)
-    };
+    <script type="application/javascript">
+        const task = () => {
+            const eatPizza = !!true && !![] && !!!"" && !!" "
+            render(eatPizza)
+        };
 
-</script>
+    </script>
 
-<script src="global.js"></script>
-<script src="3-operators-3.js"></script>
+    <script src="global.js"></script>
+    <script src="3-operators-3.js"></script>
 
-<pre class="jserror"></pre>
-<pre class="error"></pre>
-<div id="next" hidden="hidden">
-    <a href="./3-operators-4.html">next</a>
-</div>
-<script>hljs.highlightAll();</script>
+    <pre class="jserror"></pre>
+    <pre class="error"></pre>
+    <div id="next" hidden="hidden">
+        <a href="./3-operators-4.html">next</a>
+    </div>
+    <script>hljs.highlightAll();</script>
 </body>
+
 </html>
